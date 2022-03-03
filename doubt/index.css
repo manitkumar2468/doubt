@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* text-align: center;
+    margin-top: 50vh; */
+}
+
+.light{
+    background-color: #aeffae;
+}
+
+.dark{
+
+    background-color: darkgray;
+}
+
+.popup{
+    position: fixed;
+    top: 40%;
+    width: 100vw;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.popup h1, .popup button{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
